@@ -25,7 +25,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
 
     - name: Install dependencies
-      run: pip install install hatch
+      run: pip install install hatch pytest
 
     - name: Check Python version
       run: python -V
