@@ -10,3 +10,16 @@ python build
 twine upload --repository testpypi dist/*
 ```
 
+After installing the package using pip
+e.g.
+
+```
+pip install dist/example_package_szabgab-0.0.1-py3-none-any.whl
+```
+
+I can
+
+```
+from example_package_szabgab.example import add_one
+add_one(1)
+```
