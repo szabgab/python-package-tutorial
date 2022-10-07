@@ -23,3 +23,12 @@ I can
 from example_package_szabgab.example import add_one
 add_one(1)
 ```
+
+
+* [hatchling](https://hatch.pypa.io/latest/)
+
+pip install hatch
+
+```
+hatch build
+```
