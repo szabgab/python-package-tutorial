@@ -32,3 +32,10 @@ pip install hatch
 ```
 hatch build
 ```
+
+Testing:
+
+```
+hatch run pytest -sv
+```
+
