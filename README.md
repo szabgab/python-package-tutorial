@@ -27,7 +27,9 @@ add_one(1)
 
 * [hatchling](https://hatch.pypa.io/latest/)
 
+``
 pip install hatch
+```
 
 ```
 hatch build
